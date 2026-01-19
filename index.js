@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // ========== CONFIGURATION ==========
 const TELEGRAM_BOT_TOKEN = process.env.BOT_TOKEN || '8485239719:AAFAVJvjCNVYeqm49rDJGeF91F0L3Ctkj0E';
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 const ALLOWED_DOMAINS = ['vegamovies.gt', 'rogmovies.world', 'www.gokuhd.com', 'xprimehub.my'];
 const WORDPRESS_PATTERNS = ['https://nexdrive.pro/', 'https://mega.nz/', 'https://gofile.io/', 'https://dropbox.com/'];
